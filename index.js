@@ -19,6 +19,7 @@ app.post('/api/v1/quiz', (req,res) => {
   }
 });
 app.get('/api/v1/users', (req,res) => res.send({name:"Mike",age:30}));
-app.listen(3000,() => console.log("I'm running!"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT,() => console.log("I'm running!"));
 
 console.log("最終行");
