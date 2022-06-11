@@ -1,0 +1,109 @@
+@import "mixin";
+@import "math";
+
+$cBlack: #333;
+$cBaseColor: red;
+$cBallCount: 24;
+$cDeg: 360deg / $cBallCount;
+$cRadius: 300px;
+$cBallSize: 40px;
+
+.try {
+  .ball-bound {
+    width: $cBallSize;
+    height: $cBallSize;
+    position: relative;
+    margin: 100px auto;
+    & > div {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      opacity: 0.6;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      @for $i from 1 through $cBallCount {
+        &:nth-child(#{$i}) {
+          background-color: adjust-hue($cBaseColor, -60deg + 360/$cBallCount * $i ) ;
+
+          @include animation(
+            $name: sk-bound#{$i},
+            $duration: 2s,
+            $iteration-count: infinite,
+            $timing-function: ease-in-out
+          );  
+          animation-delay: -1.3s + $i * 0.1s;
+        }
+        @keyframes sk-bound#{$i} {
+          0% {
+            transform: translateX(0px)
+          }
+          50% {
+            transform: translateX($cRadius * cos(30deg*$i)) translateY($cRadius * sin(30deg*$i))
+          }
+          100% {
+            transform: translateX(0px)
+          }
+        }      
+      }  
+    }
+  }
+  .ball-round {
+    width: $cBallSize;
+    height: $cBallSize;
+    position: relative;
+    margin: 100px auto;
+    & > div {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      // opacity: 0.6;
+      position: absolute;
+      top: 300px;
+      left: 0;
+      @for $i from 1 through $cBallCount {
+        $j : $i -1;        
+        &:nth-child(#{$i}) {
+          // background-color: adjust-hue($cBaseColor, -$cDeg + 360/$cBallCount * $i ) ;
+          background-color: blue;
+
+          @include animation(
+            $name: sk-round#{$i},
+            $duration: $cBallCount / 10 + 0s,
+            $iteration-count: infinite,
+            $timing-function: ease-in-out
+          );  
+          animation-delay: ($cBallCount / 10) * -1s +0.1s + $i * 0.1s;
+
+        }
+        $r_angle : $cDeg*$i + 180deg;
+        @if $i * $cDeg > 180deg {
+          $r_angle : $cDeg*$i - 180deg;
+        }
+        @keyframes sk-round#{$i} {
+          0% {
+            transform: translateX($cRadius * cos($cDeg*$i)) translateY($cRadius * sin($cDeg*$i))
+          }
+          50% {
+            transform: translateX($cRadius * cos($r_angle)) translateY($cRadius * sin($r_angle))
+          }
+          100% {
+            transform: translateX($cRadius * cos($cDeg*$i)) translateY($cRadius * sin($cDeg*$i))
+          }
+        }      
+      }  
+    }
+  }
+  .ball-color {
+    & > div {
+      @for $i from 1 through $cBallCount {
+        $j : $i -1;        
+        &:nth-child(#{$i}) {
+          background-color: adjust-hue($cBaseColor, -$cDeg + 360/$cBallCount * $i ) ;
+        }
+      }
+
+    }
+  }
+}
+

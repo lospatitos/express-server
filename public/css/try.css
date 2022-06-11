@@ -1,0 +1,2527 @@
+.try .ball-bound {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.try .ball-bound > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.try .ball-bound > div:nth-child(1) {
+  background-color: #ff00bf;
+  -webkit-animation-name: sk-bound1;
+          animation-name: sk-bound1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.2s;
+          animation-delay: -1.2s;
+}
+
+@-webkit-keyframes sk-bound1 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound1 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(2) {
+  background-color: #ff0080;
+  -webkit-animation-name: sk-bound2;
+          animation-name: sk-bound2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+}
+
+@-webkit-keyframes sk-bound2 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound2 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(3) {
+  background-color: #ff0040;
+  -webkit-animation-name: sk-bound3;
+          animation-name: sk-bound3;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-bound3 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound3 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(4) {
+  background-color: red;
+  -webkit-animation-name: sk-bound4;
+          animation-name: sk-bound4;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-bound4 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound4 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(5) {
+  background-color: #ff4000;
+  -webkit-animation-name: sk-bound5;
+          animation-name: sk-bound5;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-bound5 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound5 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(6) {
+  background-color: #ff8000;
+  -webkit-animation-name: sk-bound6;
+          animation-name: sk-bound6;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.7s;
+          animation-delay: -0.7s;
+}
+
+@-webkit-keyframes sk-bound6 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound6 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(7) {
+  background-color: #ffbf00;
+  -webkit-animation-name: sk-bound7;
+          animation-name: sk-bound7;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s;
+}
+
+@-webkit-keyframes sk-bound7 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound7 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(8) {
+  background-color: yellow;
+  -webkit-animation-name: sk-bound8;
+          animation-name: sk-bound8;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+@-webkit-keyframes sk-bound8 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound8 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(9) {
+  background-color: #bfff00;
+  -webkit-animation-name: sk-bound9;
+          animation-name: sk-bound9;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+
+@-webkit-keyframes sk-bound9 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound9 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(10) {
+  background-color: #80ff00;
+  -webkit-animation-name: sk-bound10;
+          animation-name: sk-bound10;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+
+@-webkit-keyframes sk-bound10 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound10 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(11) {
+  background-color: #40ff00;
+  -webkit-animation-name: sk-bound11;
+          animation-name: sk-bound11;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+
+@-webkit-keyframes sk-bound11 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound11 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(12) {
+  background-color: lime;
+  -webkit-animation-name: sk-bound12;
+          animation-name: sk-bound12;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+
+@-webkit-keyframes sk-bound12 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound12 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(13) {
+  background-color: #00ff40;
+  -webkit-animation-name: sk-bound13;
+          animation-name: sk-bound13;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes sk-bound13 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(260.32722px) translateY(150.15476px);
+            transform: translateX(260.32722px) translateY(150.15476px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound13 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(260.32722px) translateY(150.15476px);
+            transform: translateX(260.32722px) translateY(150.15476px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(14) {
+  background-color: #00ff80;
+  -webkit-animation-name: sk-bound14;
+          animation-name: sk-bound14;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+@-webkit-keyframes sk-bound14 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(152.61975px) translateY(260.64872px);
+            transform: translateX(152.61975px) translateY(260.64872px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound14 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(152.61975px) translateY(260.64872px);
+            transform: translateX(152.61975px) translateY(260.64872px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(15) {
+  background-color: #00ffbf;
+  -webkit-animation-name: sk-bound15;
+          animation-name: sk-bound15;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-bound15 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(11.79321px) translateY(304.0609px);
+            transform: translateX(11.79321px) translateY(304.0609px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound15 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(11.79321px) translateY(304.0609px);
+            transform: translateX(11.79321px) translateY(304.0609px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(16) {
+  background-color: cyan;
+  -webkit-animation-name: sk-bound16;
+          animation-name: sk-bound16;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+@-webkit-keyframes sk-bound16 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-101.90432px) translateY(277.49186px);
+            transform: translateX(-101.90432px) translateY(277.49186px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound16 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-101.90432px) translateY(277.49186px);
+            transform: translateX(-101.90432px) translateY(277.49186px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(17) {
+  background-color: deepskyblue;
+  -webkit-animation-name: sk-bound17;
+          animation-name: sk-bound17;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+@-webkit-keyframes sk-bound17 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-79.97943px) translateY(220.33139px);
+            transform: translateX(-79.97943px) translateY(220.33139px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound17 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-79.97943px) translateY(220.33139px);
+            transform: translateX(-79.97943px) translateY(220.33139px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(18) {
+  background-color: #0080ff;
+  -webkit-animation-name: sk-bound18;
+          animation-name: sk-bound18;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes sk-bound18 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(322.55343px) translateY(258.10261px);
+            transform: translateX(322.55343px) translateY(258.10261px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound18 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(322.55343px) translateY(258.10261px);
+            transform: translateX(322.55343px) translateY(258.10261px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(19) {
+  background-color: #0040ff;
+  -webkit-animation-name: sk-bound19;
+          animation-name: sk-bound19;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+@-webkit-keyframes sk-bound19 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(1752.33195px) translateY(731.60255px);
+            transform: translateX(1752.33195px) translateY(731.60255px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound19 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(1752.33195px) translateY(731.60255px);
+            transform: translateX(1752.33195px) translateY(731.60255px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(20) {
+  background-color: blue;
+  -webkit-animation-name: sk-bound20;
+          animation-name: sk-bound20;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+@-webkit-keyframes sk-bound20 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(5964.29184px) translateY(2563.58075px);
+            transform: translateX(5964.29184px) translateY(2563.58075px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound20 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(5964.29184px) translateY(2563.58075px);
+            transform: translateX(5964.29184px) translateY(2563.58075px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(21) {
+  background-color: #4000ff;
+  -webkit-animation-name: sk-bound21;
+          animation-name: sk-bound21;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+@-webkit-keyframes sk-bound21 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(17572.80453px) translateY(8231.04002px);
+            transform: translateX(17572.80453px) translateY(8231.04002px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound21 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(17572.80453px) translateY(8231.04002px);
+            transform: translateX(17572.80453px) translateY(8231.04002px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(22) {
+  background-color: #8000ff;
+  -webkit-animation-name: sk-bound22;
+          animation-name: sk-bound22;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-bound22 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(48165.56214px) translateY(24191.69906px);
+            transform: translateX(48165.56214px) translateY(24191.69906px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound22 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(48165.56214px) translateY(24191.69906px);
+            transform: translateX(48165.56214px) translateY(24191.69906px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(23) {
+  background-color: #bf00ff;
+  -webkit-animation-name: sk-bound23;
+          animation-name: sk-bound23;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes sk-bound23 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(125548.33331px) translateY(66639.76572px);
+            transform: translateX(125548.33331px) translateY(66639.76572px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound23 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(125548.33331px) translateY(66639.76572px);
+            transform: translateX(125548.33331px) translateY(66639.76572px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-bound > div:nth-child(24) {
+  background-color: magenta;
+  -webkit-animation-name: sk-bound24;
+          animation-name: sk-bound24;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+@-webkit-keyframes sk-bound24 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(313718.71394px) translateY(174576.4779px);
+            transform: translateX(313718.71394px) translateY(174576.4779px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes sk-bound24 {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(313718.71394px) translateY(174576.4779px);
+            transform: translateX(313718.71394px) translateY(174576.4779px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.try .ball-round {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.try .ball-round > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  left: 0;
+}
+
+.try .ball-round > div:nth-child(1) {
+  background-color: blue;
+  -webkit-animation-name: sk-round1;
+          animation-name: sk-round1;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+}
+
+@-webkit-keyframes sk-round1 {
+  0% {
+    -webkit-transform: translateX(289.77775px) translateY(77.64571px);
+            transform: translateX(289.77775px) translateY(77.64571px);
+  }
+  50% {
+    -webkit-transform: translateX(-289.77775px) translateY(-77.64571px);
+            transform: translateX(-289.77775px) translateY(-77.64571px);
+  }
+  100% {
+    -webkit-transform: translateX(289.77775px) translateY(77.64571px);
+            transform: translateX(289.77775px) translateY(77.64571px);
+  }
+}
+
+@keyframes sk-round1 {
+  0% {
+    -webkit-transform: translateX(289.77775px) translateY(77.64571px);
+            transform: translateX(289.77775px) translateY(77.64571px);
+  }
+  50% {
+    -webkit-transform: translateX(-289.77775px) translateY(-77.64571px);
+            transform: translateX(-289.77775px) translateY(-77.64571px);
+  }
+  100% {
+    -webkit-transform: translateX(289.77775px) translateY(77.64571px);
+            transform: translateX(289.77775px) translateY(77.64571px);
+  }
+}
+
+.try .ball-round > div:nth-child(2) {
+  background-color: blue;
+  -webkit-animation-name: sk-round2;
+          animation-name: sk-round2;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -2.1s;
+          animation-delay: -2.1s;
+}
+
+@-webkit-keyframes sk-round2 {
+  0% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+  100% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+}
+
+@keyframes sk-round2 {
+  0% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+  100% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+}
+
+.try .ball-round > div:nth-child(3) {
+  background-color: blue;
+  -webkit-animation-name: sk-round3;
+          animation-name: sk-round3;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+@-webkit-keyframes sk-round3 {
+  0% {
+    -webkit-transform: translateX(212.13203px) translateY(212.13203px);
+            transform: translateX(212.13203px) translateY(212.13203px);
+  }
+  50% {
+    -webkit-transform: translateX(-212.13203px) translateY(-212.13203px);
+            transform: translateX(-212.13203px) translateY(-212.13203px);
+  }
+  100% {
+    -webkit-transform: translateX(212.13203px) translateY(212.13203px);
+            transform: translateX(212.13203px) translateY(212.13203px);
+  }
+}
+
+@keyframes sk-round3 {
+  0% {
+    -webkit-transform: translateX(212.13203px) translateY(212.13203px);
+            transform: translateX(212.13203px) translateY(212.13203px);
+  }
+  50% {
+    -webkit-transform: translateX(-212.13203px) translateY(-212.13203px);
+            transform: translateX(-212.13203px) translateY(-212.13203px);
+  }
+  100% {
+    -webkit-transform: translateX(212.13203px) translateY(212.13203px);
+            transform: translateX(212.13203px) translateY(212.13203px);
+  }
+}
+
+.try .ball-round > div:nth-child(4) {
+  background-color: blue;
+  -webkit-animation-name: sk-round4;
+          animation-name: sk-round4;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.9s;
+          animation-delay: -1.9s;
+}
+
+@-webkit-keyframes sk-round4 {
+  0% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+  50% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+}
+
+@keyframes sk-round4 {
+  0% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+  50% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+}
+
+.try .ball-round > div:nth-child(5) {
+  background-color: blue;
+  -webkit-animation-name: sk-round5;
+          animation-name: sk-round5;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.8s;
+          animation-delay: -1.8s;
+}
+
+@-webkit-keyframes sk-round5 {
+  0% {
+    -webkit-transform: translateX(77.64571px) translateY(289.77775px);
+            transform: translateX(77.64571px) translateY(289.77775px);
+  }
+  50% {
+    -webkit-transform: translateX(-77.64567px) translateY(-289.77774px);
+            transform: translateX(-77.64567px) translateY(-289.77774px);
+  }
+  100% {
+    -webkit-transform: translateX(77.64571px) translateY(289.77775px);
+            transform: translateX(77.64571px) translateY(289.77775px);
+  }
+}
+
+@keyframes sk-round5 {
+  0% {
+    -webkit-transform: translateX(77.64571px) translateY(289.77775px);
+            transform: translateX(77.64571px) translateY(289.77775px);
+  }
+  50% {
+    -webkit-transform: translateX(-77.64567px) translateY(-289.77774px);
+            transform: translateX(-77.64567px) translateY(-289.77774px);
+  }
+  100% {
+    -webkit-transform: translateX(77.64571px) translateY(289.77775px);
+            transform: translateX(77.64571px) translateY(289.77775px);
+  }
+}
+
+.try .ball-round > div:nth-child(6) {
+  background-color: blue;
+  -webkit-animation-name: sk-round6;
+          animation-name: sk-round6;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.7s;
+          animation-delay: -1.7s;
+}
+
+@-webkit-keyframes sk-round6 {
+  0% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+  50% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+}
+
+@keyframes sk-round6 {
+  0% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+  50% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+}
+
+.try .ball-round > div:nth-child(7) {
+  background-color: blue;
+  -webkit-animation-name: sk-round7;
+          animation-name: sk-round7;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.6s;
+          animation-delay: -1.6s;
+}
+
+@-webkit-keyframes sk-round7 {
+  0% {
+    -webkit-transform: translateX(-77.64571px) translateY(289.77775px);
+            transform: translateX(-77.64571px) translateY(289.77775px);
+  }
+  50% {
+    -webkit-transform: translateX(77.64626px) translateY(-289.77763px);
+            transform: translateX(77.64626px) translateY(-289.77763px);
+  }
+  100% {
+    -webkit-transform: translateX(-77.64571px) translateY(289.77775px);
+            transform: translateX(-77.64571px) translateY(289.77775px);
+  }
+}
+
+@keyframes sk-round7 {
+  0% {
+    -webkit-transform: translateX(-77.64571px) translateY(289.77775px);
+            transform: translateX(-77.64571px) translateY(289.77775px);
+  }
+  50% {
+    -webkit-transform: translateX(77.64626px) translateY(-289.77763px);
+            transform: translateX(77.64626px) translateY(-289.77763px);
+  }
+  100% {
+    -webkit-transform: translateX(-77.64571px) translateY(289.77775px);
+            transform: translateX(-77.64571px) translateY(289.77775px);
+  }
+}
+
+.try .ball-round > div:nth-child(8) {
+  background-color: blue;
+  -webkit-animation-name: sk-round8;
+          animation-name: sk-round8;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.5s;
+          animation-delay: -1.5s;
+}
+
+@-webkit-keyframes sk-round8 {
+  0% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+  50% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+  100% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+}
+
+@keyframes sk-round8 {
+  0% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+  50% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+  100% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+}
+
+.try .ball-round > div:nth-child(9) {
+  background-color: blue;
+  -webkit-animation-name: sk-round9;
+          animation-name: sk-round9;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.4s;
+          animation-delay: -1.4s;
+}
+
+@-webkit-keyframes sk-round9 {
+  0% {
+    -webkit-transform: translateX(-212.13203px) translateY(212.13203px);
+            transform: translateX(-212.13203px) translateY(212.13203px);
+  }
+  50% {
+    -webkit-transform: translateX(212.1369px) translateY(-212.13087px);
+            transform: translateX(212.1369px) translateY(-212.13087px);
+  }
+  100% {
+    -webkit-transform: translateX(-212.13203px) translateY(212.13203px);
+            transform: translateX(-212.13203px) translateY(212.13203px);
+  }
+}
+
+@keyframes sk-round9 {
+  0% {
+    -webkit-transform: translateX(-212.13203px) translateY(212.13203px);
+            transform: translateX(-212.13203px) translateY(212.13203px);
+  }
+  50% {
+    -webkit-transform: translateX(212.1369px) translateY(-212.13087px);
+            transform: translateX(212.1369px) translateY(-212.13087px);
+  }
+  100% {
+    -webkit-transform: translateX(-212.13203px) translateY(212.13203px);
+            transform: translateX(-212.13203px) translateY(212.13203px);
+  }
+}
+
+.try .ball-round > div:nth-child(10) {
+  background-color: blue;
+  -webkit-animation-name: sk-round10;
+          animation-name: sk-round10;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.3s;
+          animation-delay: -1.3s;
+}
+
+@-webkit-keyframes sk-round10 {
+  0% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+  50% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+  100% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+}
+
+@keyframes sk-round10 {
+  0% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+  50% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+  100% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+}
+
+.try .ball-round > div:nth-child(11) {
+  background-color: blue;
+  -webkit-animation-name: sk-round11;
+          animation-name: sk-round11;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.2s;
+          animation-delay: -1.2s;
+}
+
+@-webkit-keyframes sk-round11 {
+  0% {
+    -webkit-transform: translateX(-289.77775px) translateY(77.64571px);
+            transform: translateX(-289.77775px) translateY(77.64571px);
+  }
+  50% {
+    -webkit-transform: translateX(289.81338px) translateY(-77.63634px);
+            transform: translateX(289.81338px) translateY(-77.63634px);
+  }
+  100% {
+    -webkit-transform: translateX(-289.77775px) translateY(77.64571px);
+            transform: translateX(-289.77775px) translateY(77.64571px);
+  }
+}
+
+@keyframes sk-round11 {
+  0% {
+    -webkit-transform: translateX(-289.77775px) translateY(77.64571px);
+            transform: translateX(-289.77775px) translateY(77.64571px);
+  }
+  50% {
+    -webkit-transform: translateX(289.81338px) translateY(-77.63634px);
+            transform: translateX(289.81338px) translateY(-77.63634px);
+  }
+  100% {
+    -webkit-transform: translateX(-289.77775px) translateY(77.64571px);
+            transform: translateX(-289.77775px) translateY(77.64571px);
+  }
+}
+
+.try .ball-round > div:nth-child(12) {
+  background-color: blue;
+  -webkit-animation-name: sk-round12;
+          animation-name: sk-round12;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+}
+
+@-webkit-keyframes sk-round12 {
+  0% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+  100% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+}
+
+@keyframes sk-round12 {
+  0% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+  100% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+}
+
+.try .ball-round > div:nth-child(13) {
+  background-color: blue;
+  -webkit-animation-name: sk-round13;
+          animation-name: sk-round13;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-round13 {
+  0% {
+    -webkit-transform: translateX(-289.77775px) translateY(-77.64571px);
+            transform: translateX(-289.77775px) translateY(-77.64571px);
+  }
+  50% {
+    -webkit-transform: translateX(289.77775px) translateY(77.64571px);
+            transform: translateX(289.77775px) translateY(77.64571px);
+  }
+  100% {
+    -webkit-transform: translateX(-289.77775px) translateY(-77.64571px);
+            transform: translateX(-289.77775px) translateY(-77.64571px);
+  }
+}
+
+@keyframes sk-round13 {
+  0% {
+    -webkit-transform: translateX(-289.77775px) translateY(-77.64571px);
+            transform: translateX(-289.77775px) translateY(-77.64571px);
+  }
+  50% {
+    -webkit-transform: translateX(289.77775px) translateY(77.64571px);
+            transform: translateX(289.77775px) translateY(77.64571px);
+  }
+  100% {
+    -webkit-transform: translateX(-289.77775px) translateY(-77.64571px);
+            transform: translateX(-289.77775px) translateY(-77.64571px);
+  }
+}
+
+.try .ball-round > div:nth-child(14) {
+  background-color: blue;
+  -webkit-animation-name: sk-round14;
+          animation-name: sk-round14;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-round14 {
+  0% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+  50% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+}
+
+@keyframes sk-round14 {
+  0% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+  50% {
+    -webkit-transform: translateX(259.80762px) translateY(150px);
+            transform: translateX(259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(-259.80762px) translateY(-150.0px);
+            transform: translateX(-259.80762px) translateY(-150.0px);
+  }
+}
+
+.try .ball-round > div:nth-child(15) {
+  background-color: blue;
+  -webkit-animation-name: sk-round15;
+          animation-name: sk-round15;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-round15 {
+  0% {
+    -webkit-transform: translateX(-212.13203px) translateY(-212.13203px);
+            transform: translateX(-212.13203px) translateY(-212.13203px);
+  }
+  50% {
+    -webkit-transform: translateX(212.13203px) translateY(212.13203px);
+            transform: translateX(212.13203px) translateY(212.13203px);
+  }
+  100% {
+    -webkit-transform: translateX(-212.13203px) translateY(-212.13203px);
+            transform: translateX(-212.13203px) translateY(-212.13203px);
+  }
+}
+
+@keyframes sk-round15 {
+  0% {
+    -webkit-transform: translateX(-212.13203px) translateY(-212.13203px);
+            transform: translateX(-212.13203px) translateY(-212.13203px);
+  }
+  50% {
+    -webkit-transform: translateX(212.13203px) translateY(212.13203px);
+            transform: translateX(212.13203px) translateY(212.13203px);
+  }
+  100% {
+    -webkit-transform: translateX(-212.13203px) translateY(-212.13203px);
+            transform: translateX(-212.13203px) translateY(-212.13203px);
+  }
+}
+
+.try .ball-round > div:nth-child(16) {
+  background-color: blue;
+  -webkit-animation-name: sk-round16;
+          animation-name: sk-round16;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.7s;
+          animation-delay: -0.7s;
+}
+
+@-webkit-keyframes sk-round16 {
+  0% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+  50% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+}
+
+@keyframes sk-round16 {
+  0% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+  50% {
+    -webkit-transform: translateX(150px) translateY(259.80762px);
+            transform: translateX(150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(-149.99999px) translateY(-259.80762px);
+            transform: translateX(-149.99999px) translateY(-259.80762px);
+  }
+}
+
+.try .ball-round > div:nth-child(17) {
+  background-color: blue;
+  -webkit-animation-name: sk-round17;
+          animation-name: sk-round17;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s;
+}
+
+@-webkit-keyframes sk-round17 {
+  0% {
+    -webkit-transform: translateX(-77.64567px) translateY(-289.77774px);
+            transform: translateX(-77.64567px) translateY(-289.77774px);
+  }
+  50% {
+    -webkit-transform: translateX(77.64571px) translateY(289.77775px);
+            transform: translateX(77.64571px) translateY(289.77775px);
+  }
+  100% {
+    -webkit-transform: translateX(-77.64567px) translateY(-289.77774px);
+            transform: translateX(-77.64567px) translateY(-289.77774px);
+  }
+}
+
+@keyframes sk-round17 {
+  0% {
+    -webkit-transform: translateX(-77.64567px) translateY(-289.77774px);
+            transform: translateX(-77.64567px) translateY(-289.77774px);
+  }
+  50% {
+    -webkit-transform: translateX(77.64571px) translateY(289.77775px);
+            transform: translateX(77.64571px) translateY(289.77775px);
+  }
+  100% {
+    -webkit-transform: translateX(-77.64567px) translateY(-289.77774px);
+            transform: translateX(-77.64567px) translateY(-289.77774px);
+  }
+}
+
+.try .ball-round > div:nth-child(18) {
+  background-color: blue;
+  -webkit-animation-name: sk-round18;
+          animation-name: sk-round18;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+@-webkit-keyframes sk-round18 {
+  0% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+  50% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+}
+
+@keyframes sk-round18 {
+  0% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+  50% {
+    -webkit-transform: translateX(0px) translateY(300px);
+            transform: translateX(0px) translateY(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0.00017px) translateY(-299.99997px);
+            transform: translateX(0.00017px) translateY(-299.99997px);
+  }
+}
+
+.try .ball-round > div:nth-child(19) {
+  background-color: blue;
+  -webkit-animation-name: sk-round19;
+          animation-name: sk-round19;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+
+@-webkit-keyframes sk-round19 {
+  0% {
+    -webkit-transform: translateX(77.64626px) translateY(-289.77763px);
+            transform: translateX(77.64626px) translateY(-289.77763px);
+  }
+  50% {
+    -webkit-transform: translateX(-77.64571px) translateY(289.77775px);
+            transform: translateX(-77.64571px) translateY(289.77775px);
+  }
+  100% {
+    -webkit-transform: translateX(77.64626px) translateY(-289.77763px);
+            transform: translateX(77.64626px) translateY(-289.77763px);
+  }
+}
+
+@keyframes sk-round19 {
+  0% {
+    -webkit-transform: translateX(77.64626px) translateY(-289.77763px);
+            transform: translateX(77.64626px) translateY(-289.77763px);
+  }
+  50% {
+    -webkit-transform: translateX(-77.64571px) translateY(289.77775px);
+            transform: translateX(-77.64571px) translateY(289.77775px);
+  }
+  100% {
+    -webkit-transform: translateX(77.64626px) translateY(-289.77763px);
+            transform: translateX(77.64626px) translateY(-289.77763px);
+  }
+}
+
+.try .ball-round > div:nth-child(20) {
+  background-color: blue;
+  -webkit-animation-name: sk-round20;
+          animation-name: sk-round20;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+
+@-webkit-keyframes sk-round20 {
+  0% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+  50% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+}
+
+@keyframes sk-round20 {
+  0% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+  50% {
+    -webkit-transform: translateX(-150px) translateY(259.80762px);
+            transform: translateX(-150px) translateY(259.80762px);
+  }
+  100% {
+    -webkit-transform: translateX(150.00167px) translateY(-259.80724px);
+            transform: translateX(150.00167px) translateY(-259.80724px);
+  }
+}
+
+.try .ball-round > div:nth-child(21) {
+  background-color: blue;
+  -webkit-animation-name: sk-round21;
+          animation-name: sk-round21;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+
+@-webkit-keyframes sk-round21 {
+  0% {
+    -webkit-transform: translateX(212.1369px) translateY(-212.13087px);
+            transform: translateX(212.1369px) translateY(-212.13087px);
+  }
+  50% {
+    -webkit-transform: translateX(-212.13203px) translateY(212.13203px);
+            transform: translateX(-212.13203px) translateY(212.13203px);
+  }
+  100% {
+    -webkit-transform: translateX(212.1369px) translateY(-212.13087px);
+            transform: translateX(212.1369px) translateY(-212.13087px);
+  }
+}
+
+@keyframes sk-round21 {
+  0% {
+    -webkit-transform: translateX(212.1369px) translateY(-212.13087px);
+            transform: translateX(212.1369px) translateY(-212.13087px);
+  }
+  50% {
+    -webkit-transform: translateX(-212.13203px) translateY(212.13203px);
+            transform: translateX(-212.13203px) translateY(212.13203px);
+  }
+  100% {
+    -webkit-transform: translateX(212.1369px) translateY(-212.13087px);
+            transform: translateX(212.1369px) translateY(-212.13087px);
+  }
+}
+
+.try .ball-round > div:nth-child(22) {
+  background-color: blue;
+  -webkit-animation-name: sk-round22;
+          animation-name: sk-round22;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+
+@-webkit-keyframes sk-round22 {
+  0% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+}
+
+@keyframes sk-round22 {
+  0% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+  50% {
+    -webkit-transform: translateX(-259.80762px) translateY(150px);
+            transform: translateX(-259.80762px) translateY(150px);
+  }
+  100% {
+    -webkit-transform: translateX(259.82109px) translateY(-149.99661px);
+            transform: translateX(259.82109px) translateY(-149.99661px);
+  }
+}
+
+.try .ball-round > div:nth-child(23) {
+  background-color: blue;
+  -webkit-animation-name: sk-round23;
+          animation-name: sk-round23;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes sk-round23 {
+  0% {
+    -webkit-transform: translateX(289.81338px) translateY(-77.63634px);
+            transform: translateX(289.81338px) translateY(-77.63634px);
+  }
+  50% {
+    -webkit-transform: translateX(-289.77775px) translateY(77.64571px);
+            transform: translateX(-289.77775px) translateY(77.64571px);
+  }
+  100% {
+    -webkit-transform: translateX(289.81338px) translateY(-77.63634px);
+            transform: translateX(289.81338px) translateY(-77.63634px);
+  }
+}
+
+@keyframes sk-round23 {
+  0% {
+    -webkit-transform: translateX(289.81338px) translateY(-77.63634px);
+            transform: translateX(289.81338px) translateY(-77.63634px);
+  }
+  50% {
+    -webkit-transform: translateX(-289.77775px) translateY(77.64571px);
+            transform: translateX(-289.77775px) translateY(77.64571px);
+  }
+  100% {
+    -webkit-transform: translateX(289.81338px) translateY(-77.63634px);
+            transform: translateX(289.81338px) translateY(-77.63634px);
+  }
+}
+
+.try .ball-round > div:nth-child(24) {
+  background-color: blue;
+  -webkit-animation-name: sk-round24;
+          animation-name: sk-round24;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+@-webkit-keyframes sk-round24 {
+  0% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+  50% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+}
+
+@keyframes sk-round24 {
+  0% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+  50% {
+    -webkit-transform: translateX(-300.0px) translateY(0px);
+            transform: translateX(-300.0px) translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateX(300.09037px) translateY(0.02482px);
+            transform: translateX(300.09037px) translateY(0.02482px);
+  }
+}
+
+.try .ball-color > div:nth-child(1) {
+  background-color: red;
+}
+
+.try .ball-color > div:nth-child(2) {
+  background-color: #ff4000;
+}
+
+.try .ball-color > div:nth-child(3) {
+  background-color: #ff8000;
+}
+
+.try .ball-color > div:nth-child(4) {
+  background-color: #ffbf00;
+}
+
+.try .ball-color > div:nth-child(5) {
+  background-color: yellow;
+}
+
+.try .ball-color > div:nth-child(6) {
+  background-color: #bfff00;
+}
+
+.try .ball-color > div:nth-child(7) {
+  background-color: #80ff00;
+}
+
+.try .ball-color > div:nth-child(8) {
+  background-color: #40ff00;
+}
+
+.try .ball-color > div:nth-child(9) {
+  background-color: lime;
+}
+
+.try .ball-color > div:nth-child(10) {
+  background-color: #00ff40;
+}
+
+.try .ball-color > div:nth-child(11) {
+  background-color: #00ff80;
+}
+
+.try .ball-color > div:nth-child(12) {
+  background-color: #00ffbf;
+}
+
+.try .ball-color > div:nth-child(13) {
+  background-color: cyan;
+}
+
+.try .ball-color > div:nth-child(14) {
+  background-color: deepskyblue;
+}
+
+.try .ball-color > div:nth-child(15) {
+  background-color: #0080ff;
+}
+
+.try .ball-color > div:nth-child(16) {
+  background-color: #0040ff;
+}
+
+.try .ball-color > div:nth-child(17) {
+  background-color: blue;
+}
+
+.try .ball-color > div:nth-child(18) {
+  background-color: #4000ff;
+}
+
+.try .ball-color > div:nth-child(19) {
+  background-color: #8000ff;
+}
+
+.try .ball-color > div:nth-child(20) {
+  background-color: #bf00ff;
+}
+
+.try .ball-color > div:nth-child(21) {
+  background-color: magenta;
+}
+
+.try .ball-color > div:nth-child(22) {
+  background-color: #ff00bf;
+}
+
+.try .ball-color > div:nth-child(23) {
+  background-color: #ff0080;
+}
+
+.try .ball-color > div:nth-child(24) {
+  background-color: #ff0040;
+}
+/*# sourceMappingURL=try.css.map */
